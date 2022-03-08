@@ -5,18 +5,16 @@
 * License: https://bootstrapmade.com/license/
 */
 
-(function() {
 
-  function getAge(dateString) {
-    var today = new Date();
-    var birthDate = new Date(dateString);
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
-    }
-    return age;
-  }
+$( document ).ready(function() {
+  dob = new Date("05/27/1998");
+  var today = new Date();
+  var age = Math.floor((today-dob) / (365.25 * 24 * 60 * 60 * 1000));
+
+  $("#jaredAge").text(age);
+});
+
+(function() {
 
   "use strict";
 
