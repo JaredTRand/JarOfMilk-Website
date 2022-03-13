@@ -17,7 +17,6 @@ function randColor(){
       dataType: 'text',
       success: function(data) { 
         alert(data);
-        
       }
     });
   }); 
