@@ -39,6 +39,7 @@ function randColor(){
           if (Date.now() < end) {
             requestAnimationFrame(frame);
           }
+          frame();
         }());
       }
     });
