@@ -16,7 +16,6 @@ function randColor(){
       async: true,
       dataType: 'text',
       success: function(data) { 
-		alert(data);
         $('#generatedName').text(data);
 
         var end = Date.now() + (150);
