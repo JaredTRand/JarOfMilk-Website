@@ -16,7 +16,8 @@ function randColor(){
       async: true,
       dataType: 'text',
       success: function(data) { 
-        $('#generatedName').text(data);
+        alert(data);
+        
       }
     });
   }); 
