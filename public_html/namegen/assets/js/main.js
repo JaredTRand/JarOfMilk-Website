@@ -40,7 +40,6 @@ function randColor(){
             requestAnimationFrame(frame);
           }
         }());
-        frame();
       }
     });
   }); 
