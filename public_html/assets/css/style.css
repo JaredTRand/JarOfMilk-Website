@@ -247,6 +247,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+#hero3d {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
 #hero2 {
   width: 100%;
   height: 50vh;
