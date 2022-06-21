@@ -264,7 +264,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero2 {
   width: 100%;
   height: 50vh;
-  opacity: 60%;
   background: url("../img/horsebird.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
