@@ -815,10 +815,6 @@ section {
   left: 0;
 
   z-index: 1;
-
-  /* fixes overlap error in IE7/8, 
-     make sure you have an empty gif */
-  background-image: url('empty.gif');
 }
 
 .box{
