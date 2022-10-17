@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Angery Detector</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet 
+    <link rel="stylesheet" href="/style.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- import the webpage's javascript file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/script.php" defer></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/dropzone.css" type="text/css" rel="stylesheet" />
+    <script src="css/dropzone.js"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div id="mainholder" class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">
+                This is a project created for a senior software engineering
+                project. The purpose is to attempt and create an easy way to
+                tell if a crowd is dicontent or content
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://twitter.com/JarMayonnaise" class="text-white"
+                    >Follow on Twitter</a
+                  >
+                </li>
+                <li>
+                  <a href="jarofmilkcom" class="text-white">Visit my Website</a>
+                </li>
+                <li>
+                  <a href="randja@my.easternct.edu" class="text-white"
+                    >Email me</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>Angery Crowd Detector</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <section id="">
+        <div id="videodiv" class="embed-responsive embed-responsive-16by9">
+          <video
+            id="bannervid"
+            class="embed-responsive-item"
+            src="img/crowd.mp4"
+            autoplay
+            loop
+          ></video>
+          <div id="maintitle" class="container text-center">
+            <h1 class="display-1 bannertext1 text-center">Angery Crowd?</h1>
+            <p class="lead text-muted bannertext2 text-center">
+              Upload or Record audio and let us analyze if the crowd you're in
+              is angery or not
+            </p>
+          </div>
+        </div>
+
+        <div id="middle" class="container">
+          <div class="row">
+            <div class="col-sm">
+              <div class="child_div_1 container text-center">
+                <h1 class="jumbotron-heading">Upload</h1>
+                <p class="lead text-muted">
+                  Upload your own file by clicking, or simply dragging and
+                  dropping into the box
+                </p>
+
+                <form
+                  id="myDropzone"
+                  action="upload3.php"
+                  class="dropzone"
+                  enctype="multipart/form-data"
+                ></form>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="child_div_1 container text-center">
+                <h1 class="jumbotron-heading">Record</h1>
+                <p class="lead text-muted">
+                  Record audio to easily upload the sound of your current
+                  surroundings
+                </p>
+
+                <div id="controls">
+                  <button id="recordButton" class="btn btn-primary">
+                    Record
+                  </button>
+                  <button id="pauseButton" class="btn btn-secondary" disabled>
+                    Pause
+                  </button>
+                  <button id="stopButton" class="btn btn-danger" disabled>
+                    Stop
+                  </button>
+                </div>
+                <div id="formats">
+                  <!--Format: start recording to see sample rate-->
+                </div>
+                <br />
+                <p><strong>Recordings:</strong></p>
+                <br />
+                <ol id="recordingsList"></ol>
+
+                <script src="js/recorder.js"></script>
+                <script src="js/app.js"></script>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img
+            class="rounded mx-auto d-block"
+            src="https://cdn.glitch.com/1275a6ea-bdc2-4239-80a8-7e6347b7bdb3%2Faaaaaaaaaaaa.png?v=1580927128624"
+          />
+        </div>
+      </section>
+    </main>
+    <br /><br /><br />
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>This is not copyrighted&copy in any way shape or form.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script>
+  Dropzone.options.myDropzone = {
+    maxFilesize: 5000,
+    acceptedFiles:
+      "video/mp4, video/webm, video/ogg, video/mpeg, video/x-msvideo, audio/mpeg, audio/ogg, audio/wav, audio/webm, ",
+    init: function() {
+      this.on("uploadprogress", function(file, progress) {
+        console.log("File progress", progress);
+      });
+    }
+  };
+</script>
+
+<style>
+  #videodiv {
+    position: relative;
+    z-index: -1;
+    margin-bottom: 5vw;
+  }
+  #maintitle {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+  }
+  .bannertext1 {
+    color: white;
+    font-size: 10vw;
+    white-space: nowrap;
+  }
+  .bannertext2 {
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    
+  }
+  h1 {
+    text-decoration: underline red;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 4px;
+  }
+  #maintitle {
+  }
+  .dropzone {
+    margin-bottom: 2%;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+</style>

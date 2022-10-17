@@ -1,0 +1,29 @@
+  text-decoration: underline red;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;	
+  #mainholder{
+    margin-top:10%;
+  }
+  .dropzone {
+    margin-bottom: 2%;
+  }
+  .parent_div_1 {
+    width: 48vw;
+
+    margin-right: 1%;
+    float: left;
+  }
+  .child_div_1 {
+    float: left;
+    margin-right: 5px;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  #recordingsList {
+  }
+
