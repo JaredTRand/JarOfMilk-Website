@@ -1,0 +1,517 @@
+1678735861701	geckodriver	INFO	Listening on 127.0.0.1:61036
+1678735864788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61037" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileiz4fXJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678735865111	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678735865117	Marionette	INFO	Listening on port 61048
+Read port: 61048
+WebDriver BiDi listening on ws://127.0.0.1:61037
+1678735865247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileiz4fXJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61037/devtools/browser/5bfc41b6-6053-47c4-af8f-d243bbfddd3c
+JavaScript warning: https://www.serveipqs.com/api/*/eMwmXXsIshVbLVzfAdLjm3wy8YGsm9RJy7ejxJI2TL5aigEzH3AdUAmTyWSQSoFzBE4fmK4vnOfkluQrkxuzVy8bBRPcY5BsuXyi82owb2kNYlFbOy2EIH01RNzC3mItdx5Fm6Y2NqRZpfcLjYtLLeta9t3ADoNOUprMf96xtkNnoBf71hLKsK5U5h1SClFIMYOUXUaIpxowk5mmTnP5W5OraBaW6v2d4oIhaVagiJYPvf81JxNMaPVpXXDLv7iC/learn.js line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=https%3A%2F%2Fsecure.indeed.com%2Faccount%2Fgoogleauth&client_id=1047839414793-v442kdo3pt0vb43l8nu2c5sh9lf4bsnj.apps.googleusercontent.com&scope=openid+email+profile&state=7g2M12y05BWG25TZ7tdNZ8EATPWEEbsy&nonce=zaVuRo8xDgCVHpUn&ui_locales=en-US+en line 2 > eval line 1010 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=https%3A%2F%2Fsecure.indeed.com%2Faccount%2Fgoogleauth&client_id=1047839414793-v442kdo3pt0vb43l8nu2c5sh9lf4bsnj.apps.googleusercontent.com&scope=openid+email+profile&state=7g2M12y05BWG25TZ7tdNZ8EATPWEEbsy&nonce=zaVuRo8xDgCVHpUn&ui_locales=en-US+en line 2 > eval line 2712 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678735896304	geckodriver	INFO	Listening on 127.0.0.1:61140
+1678735899379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofile5l6Kdo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678735899704	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678735899710	Marionette	INFO	Listening on port 61149
+WebDriver BiDi listening on ws://127.0.0.1:61141
+Read port: 61149
+1678735899973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofile5l6Kdo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61141/devtools/browser/a6b60b22-1d38-456b-aeb8-7cf9661ecf51
+JavaScript warning: https://www.serveipqs.com/api/*/eMwmXXsIshVbLVzfAdLjm3wy8YGsm9RJy7ejxJI2TL5aigEzH3AdUAmTyWSQSoFzBE4fmK4vnOfkluQrkxuzVy8bBRPcY5BsuXyi82owb2kNYlFbOy2EIH01RNzC3mItdx5Fm6Y2NqRZpfcLjYtLLeta9t3ADoNOUprMf96xtkNnoBf71hLKsK5U5h1SClFIMYOUXUaIpxowk5mmTnP5W5OraBaW6v2d4oIhaVagiJYPvf81JxNMaPVpXXDLv7iC/learn.js line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=https%3A%2F%2Fsecure.indeed.com%2Faccount%2Fgoogleauth&client_id=1047839414793-v442kdo3pt0vb43l8nu2c5sh9lf4bsnj.apps.googleusercontent.com&scope=openid+email+profile&state=FeU30oiZIUjr9VERg8E9xXQbfA5wZcaS&nonce=ZSbOAqoUzi1PKdgA&ui_locales=en-US+en line 2 > eval line 2438 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678735917068	geckodriver	INFO	Listening on 127.0.0.1:61231
+1678735920137	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61232" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileMigQF4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678735920456	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678735920462	Marionette	INFO	Listening on port 61240
+Read port: 61240
+WebDriver BiDi listening on ws://127.0.0.1:61232
+1678735920571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileMigQF4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61232/devtools/browser/7137f8b7-ee89-4ea9-9c44-05057651ae27
+JavaScript warning: https://www.serveipqs.com/api/*/eMwmXXsIshVbLVzfAdLjm3wy8YGsm9RJy7ejxJI2TL5aigEzH3AdUAmTyWSQSoFzBE4fmK4vnOfkluQrkxuzVy8bBRPcY5BsuXyi82owb2kNYlFbOy2EIH01RNzC3mItdx5Fm6Y2NqRZpfcLjYtLLeta9t3ADoNOUprMf96xtkNnoBf71hLKsK5U5h1SClFIMYOUXUaIpxowk5mmTnP5W5OraBaW6v2d4oIhaVagiJYPvf81JxNMaPVpXXDLv7iC/learn.js line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=https%3A%2F%2Fsecure.indeed.com%2Faccount%2Fgoogleauth&client_id=1047839414793-v442kdo3pt0vb43l8nu2c5sh9lf4bsnj.apps.googleusercontent.com&scope=openid+email+profile&state=ITD0pgX00QjDchiFGgTs52ca8wO2ox4N&nonce=KUaYpVwWQl6vqt9r&ui_locales=en-US+en line 2 > eval line 1855 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=https%3A%2F%2Fsecure.indeed.com%2Faccount%2Fgoogleauth&client_id=1047839414793-v442kdo3pt0vb43l8nu2c5sh9lf4bsnj.apps.googleusercontent.com&scope=openid+email+profile&state=ITD0pgX00QjDchiFGgTs52ca8wO2ox4N&nonce=KUaYpVwWQl6vqt9r&ui_locales=en-US+en line 2 > eval line 563 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678736182297	geckodriver	INFO	Listening on 127.0.0.1:61444
+1678736185342	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileoIlhP1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678736185705	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678736185711	Marionette	INFO	Listening on port 61453
+Read port: 61453
+WebDriver BiDi listening on ws://127.0.0.1:61445
+1678736185836	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileoIlhP1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61445/devtools/browser/8b864fb4-2ff1-4848-a9ea-f3e9be474a6c
+JavaScript warning: https://www.serveipqs.com/api/*/eMwmXXsIshVbLVzfAdLjm3wy8YGsm9RJy7ejxJI2TL5aigEzH3AdUAmTyWSQSoFzBE4fmK4vnOfkluQrkxuzVy8bBRPcY5BsuXyi82owb2kNYlFbOy2EIH01RNzC3mItdx5Fm6Y2NqRZpfcLjYtLLeta9t3ADoNOUprMf96xtkNnoBf71hLKsK5U5h1SClFIMYOUXUaIpxowk5mmTnP5W5OraBaW6v2d4oIhaVagiJYPvf81JxNMaPVpXXDLv7iC/learn.js line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=https%3A%2F%2Fsecure.indeed.com%2Faccount%2Fgoogleauth&client_id=1047839414793-v442kdo3pt0vb43l8nu2c5sh9lf4bsnj.apps.googleusercontent.com&scope=openid+email+profile&state=mPZgWcnftrAzMvf5nSWCGMo5OqsP1S4o&nonce=qkVdiUiDTDGMhsfL&ui_locales=en-US+en line 2 > eval line 2037 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=https%3A%2F%2Fsecure.indeed.com%2Faccount%2Fgoogleauth&client_id=1047839414793-v442kdo3pt0vb43l8nu2c5sh9lf4bsnj.apps.googleusercontent.com&scope=openid+email+profile&state=mPZgWcnftrAzMvf5nSWCGMo5OqsP1S4o&nonce=qkVdiUiDTDGMhsfL&ui_locales=en-US+en line 2 > eval line 7102 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678736198597	Marionette	INFO	Stopped listening on port 61453
+Dynamically enable window occlusion 1
+1678736266985	geckodriver	INFO	Listening on 127.0.0.1:61563
+1678736270046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61564" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileDkAgp2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678736270371	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678736270377	Marionette	INFO	Listening on port 61572
+Read port: 61572
+WebDriver BiDi listening on ws://127.0.0.1:61564
+1678736270487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileDkAgp2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61564/devtools/browser/59a1af58-c00a-48a9-908d-c83908ddfd98
+1678736283020	Marionette	INFO	Stopped listening on port 61572
+Dynamically enable window occlusion 1
+1678736346761	geckodriver	INFO	Listening on 127.0.0.1:61644
+1678736349798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61645" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileoD27Ud"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678736350109	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678736350115	Marionette	INFO	Listening on port 61653
+Read port: 61653
+WebDriver BiDi listening on ws://127.0.0.1:61645
+1678736350223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileoD27Ud\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61645/devtools/browser/27807650-201a-49dc-961d-5befd8fcd1c3
+1678736420158	geckodriver	INFO	Listening on 127.0.0.1:61716
+1678736423230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileRedQDX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678736423640	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678736423649	Marionette	INFO	Listening on port 61724
+Read port: 61724
+WebDriver BiDi listening on ws://127.0.0.1:61717
+1678736423811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\jared\\AppData\\Local\\Temp\\rust_mozprofileRedQDX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61717/devtools/browser/d85f26a5-88b3-4fa0-977f-22edbf08f7ba
+1678736430802	Marionette	INFO	Stopped listening on port 61724
+Dynamically enable window occlusion 1
+1678736741207	geckodriver	INFO	Listening on 127.0.0.1:61900
+1678736744275	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "61901" "--remote-allow-hosts" "localhost" "-no-remote"
+[GFX1-]: shader-cache: Shader disk cache is not supported
+[2023-03-13T19:45:49Z ERROR webrender_bindings::program_cache] shader-cache: Shader disk cache is not supported
+Read port: 61914
+1678736768357	geckodriver	INFO	Listening on 127.0.0.1:61965
+1678736771423	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "61966" "--remote-allow-hosts" "localhost" "-no-remote"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678736771628	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678736771632	Marionette	INFO	Listening on port 61974
+Read port: 61974
+WebDriver BiDi listening on ws://127.0.0.1:61966
+1678736771755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61966/devtools/browser/05b3a979-efd9-45bd-872d-7a0b6aae0614
+JavaScript error: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js, line 2: Error: Type error for parameter createProperties (Error processing contexts.0: Value "action" must either: be one of ["all", "page", "frame", "selection", "link", "editable", "password", "image", "video", "audio", "launcher", "bookmark", "tab", "tools_menu"], or be one of ["browser_action", "page_action"]) for contextMenus.create.
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript error: https://myjobs.indeed.com/applied, line 37: TypeError: indeed.turnstile is undefined
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+1678736834055	geckodriver	INFO	Listening on 127.0.0.1:62048
+1678736837110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "62049" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 61974
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678736837304	Marionette	INFO	Marionette enabled
+1678736837307	Marionette	INFO	Listening on port 62058
+WebDriver BiDi listening on ws://127.0.0.1:62049
+DevTools listening on ws://127.0.0.1:62049/devtools/browser/4de40008-97c8-43fe-b092-f3ae231a693f
+Read port: 62058
+1678736839256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js, line 2: Error: Type error for parameter createProperties (Error processing contexts.0: Value "action" must either: be one of ["all", "page", "frame", "selection", "link", "editable", "password", "image", "video", "audio", "launcher", "bookmark", "tab", "tools_menu"], or be one of ["browser_action", "page_action"]) for contextMenus.create.
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+injectScriptSync@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:508:11
+206@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:633:19
+__webpack_require__@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:20:30
+@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:84:18
+@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:87:10
+inject@resource://gre/modules/ExtensionContent.jsm:589:25
+]]
+JavaScript error: https://myjobs.indeed.com/applied, line 37: TypeError: indeed.turnstile is undefined
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+1678736858223	geckodriver	INFO	Listening on 127.0.0.1:62121
+1678736861285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "62122" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 62058
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678736861526	Marionette	INFO	Marionette enabled
+1678736861530	Marionette	INFO	Listening on port 62131
+WebDriver BiDi listening on ws://127.0.0.1:62122
+DevTools listening on ws://127.0.0.1:62122/devtools/browser/21f78beb-6fdf-439d-bb45-27a59a02ff2e
+Read port: 62131
+1678736863450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js, line 2: Error: Type error for parameter createProperties (Error processing contexts.0: Value "action" must either: be one of ["all", "page", "frame", "selection", "link", "editable", "password", "image", "video", "audio", "launcher", "bookmark", "tab", "tools_menu"], or be one of ["browser_action", "page_action"]) for contextMenus.create.
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript error: https://myjobs.indeed.com/applied, line 37: TypeError: indeed.turnstile is undefined
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 663"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:663:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:308:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 663, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 663: NS_ERROR_FAILURE: Failed to open input source 'file:///'
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+injectScriptSync@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:508:11
+206@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:633:19
+__webpack_require__@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:20:30
+@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:84:18
+@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:87:10
+inject@resource://gre/modules/ExtensionContent.jsm:589:25
+]]
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+injectScriptSync@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:508:11
+206@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:633:19
+__webpack_require__@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:20:30
+@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:84:18
+@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:87:10
+inject@resource://gre/modules/ExtensionContent.jsm:589:25
+]]
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+1678737138389	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Extension error: TypeError: chrome.runtime.requestUpdateCheck is not a function moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js 2
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js:2:2827907
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+fire@resource://gre/modules/ExtensionChild.jsm:832:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:836:13
+_recv@resource://gre/modules/ConduitsChild.jsm:84:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:196:20
+]]
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:23:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:43:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:84:56
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:826:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:751:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:825:12
+createBrowserElement@chrome://browser/content/parent/ext-devtools-panels.js:88:18
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:23:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:43:19
+listener@chrome://extensions/content/parent/ext-webNavigation.js:122:32
+fire@resource://gre/modules/WebNavigation.jsm:389:15
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:325:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:23:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:43:19
+listener@chrome://extensions/content/parent/ext-webNavigation.js:122:32
+fire@resource://gre/modules/WebNavigation.jsm:389:15
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:325:10
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:23:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.sys.mjs:43:19
+listener@chrome://extensions/content/parent/ext-webNavigation.js:122:32
+fire@resource://gre/modules/WebNavigation.jsm:389:15
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:325:10
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+injectScriptSync@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:508:11
+206@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:633:19
+__webpack_require__@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:20:30
+@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:84:18
+@moz-extension://4bf137d0-d1ab-4d2c-ad1e-377fdbbb8e61/build/prepareInjection.js:87:10
+inject@resource://gre/modules/ExtensionContent.jsm:589:25
+]]
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+Extension error: TypeError: chrome.runtime.requestUpdateCheck is not a function moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js 2
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js:2:2827907
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+fire@resource://gre/modules/ExtensionChild.jsm:832:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:836:13
+_recv@resource://gre/modules/ConduitsChild.jsm:84:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:196:20
+]]
+1678737627156	geckodriver	INFO	Listening on 127.0.0.1:62437
+1678737630217	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "62438" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 62131
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678737630543	Marionette	INFO	Marionette enabled
+1678737630546	Marionette	INFO	Listening on port 62446
+WebDriver BiDi listening on ws://127.0.0.1:62438
+Read port: 62446
+1678737632407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62438/devtools/browser/ea21a984-7b62-421c-8910-ed921fdb2042
+JavaScript error: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js, line 2: Error: Type error for parameter createProperties (Error processing contexts.0: Value "action" must either: be one of ["all", "page", "frame", "selection", "link", "editable", "password", "image", "video", "audio", "launcher", "bookmark", "tab", "tools_menu"], or be one of ["browser_action", "page_action"]) for contextMenus.create.
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript error: https://myjobs.indeed.com/applied, line 37: TypeError: indeed.turnstile is undefined
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 663"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:663:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:308:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:530:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:439:21
+Line: 663, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 663: NS_ERROR_FAILURE: Failed to open input source 'file:///'
+Extension error: TypeError: chrome.runtime.requestUpdateCheck is not a function moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js 2
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js:2:2827907
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+fire@resource://gre/modules/ExtensionChild.jsm:832:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:836:13
+_recv@resource://gre/modules/ConduitsChild.jsm:84:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:196:20
+]]
+1678737945213	geckodriver	INFO	Listening on 127.0.0.1:62588
+1678737948277	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "62589" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 62446
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678737948602	Marionette	INFO	Marionette enabled
+1678737948605	Marionette	INFO	Listening on port 62598
+WebDriver BiDi listening on ws://127.0.0.1:62589
+Read port: 62598
+1678737950430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62589/devtools/browser/038a78c3-c0e1-4c6c-a9c3-be89c285fc9d
+JavaScript error: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js, line 2: Error: Type error for parameter createProperties (Error processing contexts.0: Value "action" must either: be one of ["all", "page", "frame", "selection", "link", "editable", "password", "image", "video", "audio", "launcher", "bookmark", "tab", "tools_menu"], or be one of ["browser_action", "page_action"]) for contextMenus.create.
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript error: https://myjobs.indeed.com/applied, line 37: TypeError: indeed.turnstile is undefined
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+1678737988095	geckodriver	INFO	Listening on 127.0.0.1:62655
+1678737991131	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "62656" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 62598
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678737991462	Marionette	INFO	Marionette enabled
+1678737991466	Marionette	INFO	Listening on port 62664
+WebDriver BiDi listening on ws://127.0.0.1:62656
+DevTools listening on ws://127.0.0.1:62656/devtools/browser/8e3aacfe-7080-4642-b1ec-2ba9ac17aa89
+Read port: 62664
+1678737993298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js, line 2: Error: Type error for parameter createProperties (Error processing contexts.0: Value "action" must either: be one of ["all", "page", "frame", "selection", "link", "editable", "password", "image", "video", "audio", "launcher", "bookmark", "tab", "tools_menu"], or be one of ["browser_action", "page_action"]) for contextMenus.create.
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript error: https://myjobs.indeed.com/applied, line 37: TypeError: indeed.turnstile is undefined
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+1678738024835	geckodriver	INFO	Listening on 127.0.0.1:62721
+1678738027880	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "62722" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 62664
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678738028307	Marionette	INFO	Marionette enabled
+1678738028314	Marionette	INFO	Listening on port 62731
+WebDriver BiDi listening on ws://127.0.0.1:62722
+Read port: 62731
+1678738030176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62722/devtools/browser/e7937e87-042f-4613-8634-e06485720f64
+JavaScript error: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js, line 2: Error: Type error for parameter createProperties (Error processing contexts.0: Value "action" must either: be one of ["all", "page", "frame", "selection", "link", "editable", "password", "image", "video", "audio", "launcher", "bookmark", "tab", "tools_menu"], or be one of ["browser_action", "page_action"]) for contextMenus.create.
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript error: https://myjobs.indeed.com/applied, line 37: TypeError: indeed.turnstile is undefined
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+1678738095711	geckodriver	INFO	Listening on 127.0.0.1:62800
+1678738098772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "62801" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 62731
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678738099064	Marionette	INFO	Marionette enabled
+1678738099067	Marionette	INFO	Listening on port 62812
+WebDriver BiDi listening on ws://127.0.0.1:62801
+Read port: 62812
+1678738100936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62801/devtools/browser/ad412b01-cdb6-4121-9df1-a1503df2459d
+JavaScript error: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js, line 2: Error: Type error for parameter createProperties (Error processing contexts.0: Value "action" must either: be one of ["all", "page", "frame", "selection", "link", "editable", "password", "image", "video", "audio", "launcher", "bookmark", "tab", "tools_menu"], or be one of ["browser_action", "page_action"]) for contextMenus.create.
+Extension error: TypeError: (destructured parameter) is undefined moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js 30
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/notifications/pageView.js:30:3
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:813:22
+]]
+JavaScript error: https://myjobs.indeed.com/applied, line 37: TypeError: indeed.turnstile is undefined
+JavaScript error: moz-extension://7b513dee-3fcd-48a6-ab9d-cf5119dbe1f6/h1-check.js, line 1: TypeError: a.default.detectStore(...) is undefined
+JavaScript warning: moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/commons-3.js, line 2: unreachable code after return statement
+Extension error: TypeError: chrome.runtime.requestUpdateCheck is not a function moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js 2
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js:2:2827907
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+fire@resource://gre/modules/ExtensionChild.jsm:832:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:836:13
+_recv@resource://gre/modules/ConduitsChild.jsm:84:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:196:20
+]]
+Extension error: TypeError: chrome.runtime.requestUpdateCheck is not a function moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js 2
+[[Exception stack
+@moz-extension://0b73669a-8b9d-4de8-823c-b5cfd402e5cd/GENERATED/bg.js:2:2827907
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:633:13
+fire@resource://gre/modules/ExtensionChild.jsm:832:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:836:13
+_recv@resource://gre/modules/ConduitsChild.jsm:84:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:196:20
+]]
+1678739630692	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 491\"  data: no]"}
+1678739630693	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+console.error: "Sync encountered an error - see about:sync-log for the log file."
+1678740084261	geckodriver	INFO	Listening on 127.0.0.1:63387
+1678740087343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "63388" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 62812
+Read port: 62812
+Read port: 62812
+[GFX1-]: shader-cache: Shader disk cache is not supported
+[2023-03-13T20:41:32Z ERROR webrender_bindings::program_cache] shader-cache: Shader disk cache is not supported
+Read port: 62812
+Read port: 62812
+Read port: 62812
+Read port: 63408
+1678740247498	geckodriver	INFO	Listening on 127.0.0.1:63571
+1678740250552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "63572" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 63408
+[GFX1-]: shader-cache: Shader disk cache is not supported
+[2023-03-13T20:44:15Z ERROR webrender_bindings::program_cache] shader-cache: Shader disk cache is not supported
+1678740480783	geckodriver	INFO	Listening on 127.0.0.1:63653
+1678740483833	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "63654" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 63408
+[GFX1-]: shader-cache: Shader disk cache is not supported
+[2023-03-13T20:48:09Z ERROR webrender_bindings::program_cache] shader-cache: Shader disk cache is not supported
+1678740577732	geckodriver	INFO	Listening on 127.0.0.1:63866
+1678740580789	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "63867" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 63408
+[GFX1-]: shader-cache: Shader disk cache is not supported
+[2023-03-13T20:49:46Z ERROR webrender_bindings::program_cache] shader-cache: Shader disk cache is not supported
+1678740684297	geckodriver	INFO	Listening on 127.0.0.1:63980
+1678740687365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-profile" "C:/Users/jared/AppData/Roaming/ ... /Firefox/Profiles/nym7d3f6.default-release" "--remote-debugging-port" "63981" "--remote-allow-hosts" "localhost" "-no-remote"
+Read port: 63408
+[GFX1-]: shader-cache: Shader disk cache is not supported
+[2023-03-13T20:51:32Z ERROR webrender_bindings::program_cache] shader-cache: Shader disk cache is not supported

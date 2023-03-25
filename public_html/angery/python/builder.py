@@ -10,11 +10,11 @@ plt.subplot(3, 1, 1)
 librosa.display.waveplot(y, sr=sr)
 plt.title("Sound Plot")
 
-plt.savefig("image", orientation='landscape')
+plt.savefig("image", orientation="landscape")
 
-#Copy File to Uploads Folder with Date/Time
+# Copy File to Uploads Folder with Date/Time
 now = str(datetime.datetime.now())[:19]
-now = now.replace(":","_")
+now = now.replace(":", "_")
 
 dest = os.getcwd() + "/uploads/" + now + ".wav"
 shutil.copy(filename, dest)
