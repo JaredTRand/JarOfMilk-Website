@@ -11,7 +11,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "GET",
-            url: 'http://localhost:8000/api/getDream/'+dream,
+            url: 'http://jarofmilk.com:8000/api/getDream/'+dream,
             timeout: 20000,    
             crossDomain: true,
             dataType: "json",
