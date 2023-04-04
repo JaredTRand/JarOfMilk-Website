@@ -4,37 +4,42 @@ $(document).ready(function () {
     $("#submit-loading").hide()
 
     $("#submit").click(function () {
-        $("#submit").hide();
-        $("#submit-loading").show();
-
         dream = $("#dreamText").val();
 
-        $.ajax({
-            type: "GET",
-            url: 'https://jarofmilk.com/api/getDream/'+dream,
-            timeout: 20000,    
-            crossDomain: true,
-            dataType: "json",
-            success: function(data) {
-                $("#submit").show();
-                $("#submit-loading").hide();
+        if(dream.length === 0){
+            alert("Please describe your dream.");
+        }else{
+            $("#submit").hide();
+            $("#submit-loading").show();
 
-                $("#generated").show();
-                $("#generated").text(data.result); 
-             },
-             error: function(XMLHttpRequest, textStatus, errorThrown) { 
-                console.log(XMLHttpRequest);
-                console.log(textStatus);
-                console.log(errorThrown);
+            
+            $.ajax({
+                type: "GET",
+                url: 'https://jarofmilk.com/api/getDream/'+dream,
+                timeout: 20000,    
+                crossDomain: true,
+                dataType: "json",
+                success: function(data) {
+                    $("#submit").show();
+                    $("#submit-loading").hide();
 
-                $("#submit").show();
-                $("#submit-loading").hide();
+                    $("#generated").show();
+                    $("#generated").text(data.result); 
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) { 
+                    console.log(XMLHttpRequest);
+                    console.log(textStatus);
+                    console.log(errorThrown);
 
-                //$("#generated").show();
-                //$("#generated").text("Something went wrong! Please try again later when it isn't broken."); 
-                alert("Something went wrong! Please try again later when it isn't broken.");
-            } 
-        });
+                    $("#submit").show();
+                    $("#submit-loading").hide();
+
+                    //$("#generated").show();
+                    //$("#generated").text("Something went wrong! Please try again later when it isn't broken."); 
+                    alert("Something went wrong! Please try again later when it isn't broken.");
+                } 
+            });
+        }
     });
 });
     

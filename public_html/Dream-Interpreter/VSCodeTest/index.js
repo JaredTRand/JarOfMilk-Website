@@ -1,3 +1,4 @@
+const HOSTNAME = 'localhost';
 const PORT = 8000
 //const axios = require('axios')
 //const cheerio = require('cheerio')
@@ -7,7 +8,13 @@ require('dotenv').config();
 const app = express()
 
 app.get('/api/getDream/:dream', async(req, res) => {
-    const reqDream = req.params.dream
+    let reqDream = req.params.dream
+    let lastChar = reqDream.slice(-1)
+    
+    if(lastChar != '.'){
+        reqDream = reqDream + "."
+    }
+
     //console.log(reqDream)
     try{
         let dreamInter = await get_dream(reqDream)
@@ -43,5 +50,4 @@ async function get_dream(inputText){
     return completion.data.choices[0].text
 }
 
-
-app.listen(PORT,  () => console.log('Server running on PORT '+PORT))
+app.listen(PORT, HOSTNAME, () => console.log(`Server running at ${HOSTNAME}:${PORT}`))
