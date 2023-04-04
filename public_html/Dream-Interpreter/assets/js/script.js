@@ -11,7 +11,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "GET",
-            url: 'http://jarofmilk.com:8000/api/getDream/'+dream,
+            url: 'https://jarofmilk.com/api/getDream/'+dream,
             timeout: 20000,    
             crossDomain: true,
             dataType: "json",
@@ -30,8 +30,9 @@ $(document).ready(function () {
                 $("#submit").show();
                 $("#submit-loading").hide();
 
-                $("#generated").show();
-                $("#generated").text("Something went wrong! Please try again later."); 
+                //$("#generated").show();
+                //$("#generated").text("Something went wrong! Please try again later when it isn't broken."); 
+                alert("Something went wrong! Please try again later when it isn't broken.");
             } 
         });
     });
