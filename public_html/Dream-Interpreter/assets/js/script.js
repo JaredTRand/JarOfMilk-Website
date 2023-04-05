@@ -15,7 +15,7 @@ $(document).ready(function () {
             
             $.ajax({
                 type: "GET",
-                url: 'https://jarofmilk.com/api/getDream/'+dream,
+                url: 'http://jarofmilk.com/api/getDream/'+dream,
                 timeout: 20000,    
                 crossDomain: true,
                 dataType: "json",
