@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.end('Hello World!');
 });
 
-app.get('/api/getDream/:dream', async(req, res) => {
+app.get('/getDream/:dream', async(req, res) => {
     let reqDream = req.params.dream
     let lastChar = reqDream.slice(-1)
     
