@@ -1,7 +1,5 @@
 const HOSTNAME = 'localhost';
 const PORT = 8000
-//const axios = require('axios')
-//const cheerio = require('cheerio')
 const express = require('express')
 require('dotenv').config();
 
