@@ -3,11 +3,9 @@ const PORT = 8000
 var fs = require('fs');
 var http = require('http');
 var https = require('https');
-var privateKey  = fs.readFileSync('/var/www/jarofmilk.com/public_html/Dream-Interpreter/VSCodeTest/assets/ssl_certs/privkey.pem', 'utf8');
-var certificate = fs.readFileSync('/var/www/jarofmilk.com/public_html/Dream-Interpreter/VSCodeTest/assets/ssl_certs/fullchain.pem', 'utf8');
+var privateKey  = fs.readFileSync('/etc/letsencrypt/live/jarofmilk.com/privkey.pem', 'utf8');
+var certificate = fs.readFileSync('/etc/letsencrypt/live/jarofmilk.com/fullchain.pem', 'utf8');
 var credentials = {key: privateKey, cert: certificate};
-//const axios = require('axios')
-//const cheerio = require('cheerio')
 const express = require('express')
 require('dotenv').config();
 
