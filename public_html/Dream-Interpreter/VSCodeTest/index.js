@@ -60,5 +60,19 @@ async function get_dream(inputText){
 }
 
 //app.listen(PORT, HOSTNAME, () => console.log(`Server running at ${HOSTNAME}:${PORT}`))
-http.createServer(app).listen(8000);
-https.createServer(options, app).listen(8001);
+//http.createServer(app).listen(8000);
+//https.createServer(options, app).listen(8000);
+
+https
+  .createServer(
+		// Provide the private and public key to the server by reading each
+		// file's content with the readFileSync() method.
+    {
+      key,
+      cert,
+    },
+    app
+  )
+  .listen(4000, () => {
+    console.log("serever is runing at port 4000");
+  });
