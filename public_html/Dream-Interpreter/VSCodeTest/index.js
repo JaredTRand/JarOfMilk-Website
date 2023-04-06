@@ -68,8 +68,8 @@ https
 		// Provide the private and public key to the server by reading each
 		// file's content with the readFileSync() method.
     {
-      key,
-      cert,
+      key: fs.readFileSync("/etc/letsencrypt/live/jarofmilk.com/privkey.pem"),
+      cert: fs.readFileSync("/etc/letsencrypt/live/jarofmilk.com/fullchain.pem"),
     },
     app
   )
