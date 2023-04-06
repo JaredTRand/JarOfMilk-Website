@@ -1,5 +1,11 @@
 const HOSTNAME = 'localhost';
 const PORT = 8000
+var fs = require('fs');
+var http = require('http');
+var https = require('https');
+var privateKey  = fs.readFileSync('/etc/letsencrypt/live/jarofmilk.com/privkey.pem', 'utf8');
+var certificate = fs.readFileSync('/etc/letsencrypt/live/jarofmilk.com/fullchain.pem', 'utf8');
+var credentials = {key: privateKey, cert: certificate};
 //const axios = require('axios')
 //const cheerio = require('cheerio')
 const express = require('express')
@@ -54,4 +60,10 @@ async function get_dream(inputText){
     return completion.data.choices[0].text
 }
 
-app.listen(PORT, HOSTNAME, () => console.log(`Server running at ${HOSTNAME}:${PORT}`))
+var httpServer = http.createServer(app);
+var httpsServer = https.createServer(credentials, app);
+
+httpServer.listen(8000);
+httpsServer.listen(8001);
+
+//app.listen(PORT, HOSTNAME, () => console.log(`Server running at ${HOSTNAME}:${PORT}`))
