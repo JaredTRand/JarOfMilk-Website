@@ -59,12 +59,4 @@ async function get_dream(inputText){
     return completion.data.choices[0].text
 }
 
-//app.listen(PORT, HOSTNAME, () => console.log(`Server running at ${HOSTNAME}:${PORT}`))
-//http.createServer(app).listen(8000);
-//https.createServer(options, app).listen(8000);
-
-https.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.write('Hello World!');
-    res.end();
-  }).listen(8000); 
+app.listen(PORT, HOSTNAME, () => console.log(`Server running at ${HOSTNAME}:${PORT}`))
