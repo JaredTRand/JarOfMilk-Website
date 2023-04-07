@@ -59,15 +59,10 @@ async function get_dream(inputText){
     return completion.data.choices[0].text
 }
 
-//app.listen(PORT, HOSTNAME, () => console.log(`Server running at ${HOSTNAME}:${PORT}`))
-https
-  .createServer(
-    {
-      key: fs.readFileSync("/etc/letsencrypt/live/jarofmilk.com/privkey.pem"),
-      cert: fs.readFileSync("/etc/letsencrypt/live/jarofmilk.com/fullchain.pem"),
-    },
-    app
-  )
-  .listen(8000, () => {
-    console.log("serever is runing at port 8000");
-  });
+
+var options = {
+    key: fs.readFileSync("/etc/letsencrypt/live/jarofmilk.com/privkey.pem"),
+      cert: fs.readFileSync("/etc/letsencrypt/live/jarofmilk.com/fullchain.pem")
+};
+
+https.createServer(options, app).listen(8000);
