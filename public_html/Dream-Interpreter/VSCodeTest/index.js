@@ -40,7 +40,6 @@ app.get('/getDream/:dream', async(req, res) => {
 })
 
 
-
 async function get_dream(inputText){
     const { Configuration, OpenAIApi } = require("openai");
     
@@ -63,10 +62,7 @@ async function get_dream(inputText){
     return completion.data.choices[0].text
 }
 
-
-app.use((req, res) => {
-    res.writeHead(200);
-    res.end("hello world\n");
-  });
 //app.listen(8001)
-https.createServer(options, app).listen(8000);
+https.createServer(options, app).listen(PORT, ()=>{
+    console.log(`Server is running at ${PORT}`)
+});
