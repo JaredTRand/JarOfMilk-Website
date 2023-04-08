@@ -1,5 +1,6 @@
 const HOSTNAME = 'localhost';
-const PORT = 8000;
+const HTTPPORT = 8000;
+const HTTPSPORT = 8001;
 var https = require('https');
 var http = require('http');
 var fs = require('fs');
@@ -9,11 +10,9 @@ require('dotenv').config();
 
 const app = express()
 var options = {
-    key: fs.readFileSync('/etc/letsencrypt/live/jarofmilk.com/privkey.pem'),
-    cert: fs.readFileSync('/etc/letsencrypt/live/jarofmilk.com/fullchain.pem')
+    key: fs.readFileSync('/etc/letsencrypt/live/jarofmilk.com/privkey.pem', 'utf8'),
+    cert: fs.readFileSync('/etc/letsencrypt/live/jarofmilk.com/fullchain.pem', 'utf8')
   };
-
-
 
 
 app.get('/', (req, res) => {
@@ -62,7 +61,12 @@ async function get_dream(inputText){
     return completion.data.choices[0].text
 }
 
-//app.listen(8001)
-https.createServer(options, app).listen(PORT, ()=>{
-    console.log(`Server is running at ${PORT}`)
+var httpServer = http.createServer(app);
+var httpsServer = https.createServer(options, app);
+
+httpServer.listen(HTTPPORT, ()=>{
+    console.log(`HTTP server is running at ${HTTPPORT}`)
+});
+httpsServer.listen(HTTPSPORT, ()=>{
+    console.log(`HTTPS server is running at ${HTTPSPORT}`)
 });
