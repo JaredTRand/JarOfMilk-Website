@@ -11,6 +11,13 @@ input{
   padding:.5em; 
 }
 
+#generated{
+  display: none;
+}
+#submit-loading{
+  display: none;
+}
+
 #mainDiv{
   width: 75%;
 }
