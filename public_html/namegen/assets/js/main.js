@@ -16,8 +16,9 @@ function randColor(){
       async: true,
       dataType: 'text',
       success: function(data) { 
-        $('#generatedName').text(data);
-        
+        // $('#generatedName').text(data);
+        $('#generatedName').text("WIP, trying to switch it over to an API")
+
         var end = Date.now() + (150);
         var colors = [randColor(), randColor()];
         (function frame() {
